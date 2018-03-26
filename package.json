@@ -1,7 +1,7 @@
 {
-  "name": "ethereum-client-binaries",
-  "version": "1.6.4",
-  "description": "Download Ethereum client binaries for your OS",
+  "name": "happyuc-client-binaries",
+  "version": "1.0.0",
+  "description": "Download Happyuc client binaries for your OS",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha --timeout 180000 --ui exports --reporter spec test/*.test.js",
@@ -9,24 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ethereum/ethereum-client-binaries.git"
+    "url": "git+https://github.com/ldcc/happyuc-client-binaries.git"
   },
   "keywords": [
+    "happyuc",
     "ethereum",
     "blockchain",
     "client",
     "geth",
+    "ghuc",
     "parity",
     "ethereumj",
+    "happyucj",
     "ethereumjs",
-    "pyethereum"
+    "happyucjs",
+    "pyethereum",
+    "pyhappyuc"
   ],
   "author": "Ramesh Nair <ram@hiddentao.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ethereum/ethereum-client-binaries/issues"
+    "url": "https://github.com/ldcc/happyuc-client-binaries/issues"
   },
-  "homepage": "https://github.com/ethereum/ethereum-client-binaries#readme",
+  "homepage": "https://github.com/ldcc/happyuc-client-binaries#readme",
   "dependencies": {
     "buffered-spawn": "^3.3.2",
     "got": "^6.5.0",
