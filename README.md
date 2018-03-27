@@ -13,7 +13,7 @@ e.g. if one wishes to allow a user to select the client software they wish to
 download.
 
 Features:
-* Configurable client types (Ghuc, Eth, Parity, etc)
+* Configurable client types (Ghuc, Huc, Parity, etc)
 * Security: Binary *sanity* checks, URL regex checks, SHA256 hash checks
 * Can scan and download to specific folders
 * Logging can be toggled on/off at runtime
