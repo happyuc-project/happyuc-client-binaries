@@ -2,9 +2,9 @@
 
 [![Build Status](https://secure.travis-ci.org/happyuc/happyuc-client-binaries.svg?branch=master)](http://travis-ci.org/happyuc/happyuc-client-binaries) [![NPM module](https://badge.fury.io/js/happyuc-client-binaries.svg)](https://badge.fury.io/js/happyuc-client-binaries)
 
-Download Ethereum client binaries for your OS.
+Download Happyuc client binaries for your OS.
 
-When you wish to run a local Ethereum client node it would be beneficial to first
+When you wish to run a local Happyuc client node it would be beneficial to first
 scan for existing node client binaries on the machine and then download
 appropriate client binaries if none found. **This package does both.**
 
@@ -32,7 +32,7 @@ npm install --save happyuc-client-binaries
 First a config object needs to be defined. This specifies the possible clients
 and the platforms they support.
 
-For example, a config object which specifies the [Ghuc client](https://github.com/dreamxyp/happyuc-go) for only 64-bit Linux platforms and the [Parity client](https://github.com/huccore/parity) for only 32-bit Windows platforms might be:
+For example, a config object which specifies the [Ghuc client](https://github.com/happyuc-project/happyuc-go) for only 64-bit Linux platforms and the [Parity client](https://github.com/hucore/parity) for only 32-bit Windows platforms might be:
 
 ```js
 const config = {
