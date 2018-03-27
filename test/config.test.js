@@ -1,27 +1,21 @@
-"use strict";
+'use strict';
 
 const test = require('./_base')(module);
 
-
-
-test['DefaultConfig'] = function*() {
+test['DefaultConfig'] = function* () {
   this.DefaultConfig.should.eql(require('../src/config.json'));
 };
 
-
-
-test['no config given'] = function*() {
+test['no config given'] = function* () {
   this.mgr = new this.Manager();
 
   this.mgr.config.should.eql(this.DefaultConfig);
 };
 
-
-
-test['config override'] = function*() {
+test['config override'] = function* () {
   this.mgr = new this.Manager({
-    foo: 'bar'
+    foo: 'bar',
   });
 
-  this.mgr.config.should.eql({ foo: 'bar' });
+  this.mgr.config.should.eql({foo: 'bar'});
 };
