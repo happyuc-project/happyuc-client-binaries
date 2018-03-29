@@ -6,7 +6,7 @@
         "linux": {
           "x64": {
             "download": {
-              "url": "https://github.com/dreamxyp/happyuc-go/tree/master/target/ghuc-linux-amd64.tar.gz",
+              "url": "https://github.com/happyuc-project/happyuc-go/raw/master/target/ghuc-linux-amd64.tar.gz",
               "type": "tar",
               "bin": "ghuc-linux-amd64/ghuc"
             },
