@@ -341,25 +341,8 @@ class Manager {
 
       return promise.then(() => {
         this._logger.debug(`Unzipped ${downloadFile} to ${unpackFolder}`);
-
         const linkPath = path.join(unpackFolder, activeCli.bin);
-
-        // need to rename binary?
-        if (downloadCfg.bin) {
-          let realPath = path.join(unpackFolder, downloadCfg.bin);
-
-          try {
-            fs.accessSync(linkPath, fs.R_OK);
-            fs.unlinkSync(linkPath);
-          } catch (e) {
-            if (e.code !== 'ENOENT')
-              this._logger.warn(e);
-          }
-
-          return copyFile(realPath, linkPath).then(() => linkPath);
-        } else {
-          return Promise.resolve(linkPath);
-        }
+        return Promise.resolve(linkPath);
       }).then((binPath) => {
         // make binary executable
         try {
