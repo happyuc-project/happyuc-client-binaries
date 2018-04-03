@@ -1,6 +1,6 @@
 {
   "name": "happyuc-client-binaries",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Download Happyuc client binaries for your OS",
   "main": "src/index.js",
   "scripts": {
@@ -52,8 +52,5 @@
     "mocha": "^5.0.5",
     "sinon": "^4.4.9",
     "sinon-chai": "^3.0.0"
-  },
-  "directories": {
-    "test": "test"
   }
 }
