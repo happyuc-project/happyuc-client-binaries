@@ -1,30 +1,15 @@
-{
-  "clients": {
-    "Ghuc": {
-      "version": "",
-      "platforms": {
-        "linux": {
-          "x64": {
-            "download": {
-              "url": "https://github.com/happyuc-project/happyuc-go/raw/master/target/ghuc-linux-amd64.tar.gz",
-              "type": "tar",
-              "bin": "ghuc"
-            },
-            "bin": "ghuc",
-            "commands": {
-              "sanity": {
-                "args": [
-                  "version"
-                ],
-                "output": [
-                  "Ghuc",
-                  ""
-                ]
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
+                "mac": {
+                    "x64": {
+                        "download": {
+                            "url": "https://ghucstore.blob.core.windows.net/builds/ghuc-darwin-amd64.tar.gz",
+                            "type": "tar",
+                            "bin": "ghuc-darwin-amd64/ghuc"
+                        },
+                        "bin": "ghuc",
+                        "commands": {
+                            "sanity": {
+                                "args": ["version"],
+                                "output": [ "Ghuc", "" ]
+                            }
+                        }
+                    }
