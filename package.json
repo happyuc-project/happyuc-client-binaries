@@ -1,6 +1,6 @@
 {
   "name": "happyuc-client-binaries",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Download Happyuc client binaries for your OS",
   "main": "src/index.js",
   "scripts": {
